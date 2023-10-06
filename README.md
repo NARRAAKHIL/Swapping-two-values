@@ -18,8 +18,21 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
-
+```
+swapping of two variables
+devloped by akhil
+reference number:23003406
+def swap_values(a, b):
+    a = float(a)
+    b = float(b)
+    a, b = b, a
+    return a, b
+value1 = input("Enter the first value: ")
+value2 = input("Enter the second value: ")
+result1, result2 = swap_values(value1, value2)
+print(f"The first value after swapping: {result1}")
+print(f"The second value after swapping: {result2}")
+```
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
